@@ -1,0 +1,6 @@
+{
+  "name": "Taaj Money Transfer",
+  "description": "A modern, highly secure, and responsive money transfer landing page for Taaj Nigeria. Features a real-time rates calculator, transparent fees, customer reviews, compliance badges, and responsive dark mode design.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
