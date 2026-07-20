@@ -17,7 +17,6 @@ export default function Navbar({ onOpenAuth }: NavbarProps) {
     { name: 'Home', href: '#home' },
     { name: 'Why Taaj', href: '#why-us' },
     { name: 'How It Works', href: '#how-it-works' },
-    { name: 'Real-time Rates', href: '#rates' },
     { name: 'Reviews', href: '#reviews' },
     { name: 'Contact Us', href: '#contact' },
   ];
