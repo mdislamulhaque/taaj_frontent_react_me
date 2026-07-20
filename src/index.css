@@ -12,21 +12,40 @@
 }
 
 :root {
-  /* Sophisticated Dark Theme Variables */
-  --color-brand-purple-val: #391342;
-  --color-brand-purple-light-val: #5a2069;
-  --color-brand-navy-val: #181d42;
-  --color-brand-cyan-val: #c471ed; /* Sophisticated accent purple-pink */
-  /* --color-brand-green-val: #00e676;  */
-  --color-brand-green-val: #98c83b; /* Sophisticated bright success green */
-  --color-brand-orange-val: #f64f59; /* Warm pink accent */
+  /* Sophisticated Blue & Green Theme Variables */
+
+  --color-brand-purple-val: #133172;
+  --color-brand-purple-light-val: #1d479f;
+  --color-brand-navy-val: #0d2455;
+
+  --color-brand-cyan-val: #5fb8ff; /* Light blue accent */
+
+  --color-brand-green-val: #99c940; /* Primary accent green */
+
+  --color-brand-orange-val: #78b92f; /* Darker green accent */
 
   /* Gradient variables */
-  --brand-gradient: linear-gradient(148deg, rgba(57, 19, 66, 1) 0%, rgba(24, 29, 66, 1) 100%);
-  --brand-gradient-hover: linear-gradient(148deg, rgba(75, 25, 87, 1) 0%, rgba(32, 38, 87, 1) 100%);
-  --accent-gradient: linear-gradient(90deg, #c471ed, #f64f59); /* Sophisticated primary button/text gradient */
-  --dark-card-bg: rgba(255, 255, 255, 0.05);
-  --dark-card-border: rgba(255, 255, 255, 0.1);
+  --brand-gradient: linear-gradient(
+    148deg,
+    #133172 0%,
+    #1d479f 100%
+  );
+
+  --brand-gradient-hover: linear-gradient(
+    148deg,
+    #1a3d8a 0%,
+    #2856bb 100%
+  );
+
+  --accent-gradient: linear-gradient(
+    90deg,
+    #99c940 0%,
+    #b7dd67 100%
+  );
+
+  /* Card */
+  --dark-card-bg: rgba(19, 49, 114, 0.06);
+  --dark-card-border: rgba(19, 49, 114, 0.12);
 }
 *{
   scroll-behavior: smooth;
