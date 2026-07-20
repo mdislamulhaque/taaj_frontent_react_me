@@ -47,7 +47,7 @@ export default function HowItWorks() {
           <span className="text-xs font-bold tracking-widest text-brand-green uppercase bg-brand-green/10 px-3.5 py-1.5 rounded-full">
             Simple 3-Step Process
           </span>
-          <h2 className="font-sans text-3xl font-extrabold tracking-tight text-white sm:text-4xl">
+          <h2 className="font-sans text-2xl font-extrabold tracking-tight text-white sm:text-4xl">
             How It Works
           </h2>
           <p className="text-slate-300 font-medium leading-relaxed">

@@ -41,7 +41,7 @@ export default function Hero({ onOpenAuth, onInitiateTransfer }: HeroProps) {
 
             {/* High-Contrast Modern H1 */}
             <div className="space-y-4">
-              <h1 className="font-sans text-4xl font-extrabold tracking-tight text-white sm:text-5xl lg:text-6xl leading-none">
+              <h1 className="font-sans text-2xl font-extrabold tracking-tight text-white sm:text-5xl lg:text-6xl leading-none">
                 Fast, Safe & <span className="gradient-text">Borderless</span> Money Transfers
               </h1>
               <p className="max-w-2xl text-base sm:text-lg text-slate-300 font-medium leading-relaxed">
