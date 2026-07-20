@@ -45,7 +45,7 @@ export default function Footer() {
                   Money Transfer
                 </span>
               </div> */}
-             < img src="../assets/logo.png" alt="Taaj Nigeria Logo" className="h-10 w-auto" />
+             < img src="https://i.ibb.co.com/Q3LV8Q8v/logo.png" alt="Taaj Nigeria Logo" className="h-10 w-auto" />
             </a>
             
             <p className="text-xs text-slate-400 leading-relaxed">
