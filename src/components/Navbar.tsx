@@ -4,7 +4,8 @@
  */
 
 import React, { useState } from 'react';
-import { Menu, X, ShieldCheck, ArrowRight, Lock, UserPlus, Mail } from 'lucide-react';
+import { Menu, X, ShieldCheck, ArrowRight, Lock, UserPlus, Mail,  } from 'lucide-react';
+
 
 interface NavbarProps {
   onOpenAuth: (mode: 'login' | 'signup') => void;
@@ -14,7 +15,7 @@ export default function Navbar({ onOpenAuth }: NavbarProps) {
   const [isOpen, setIsOpen] = useState(false);
 
   const navLinks = [
-    { name: 'Home', href: '#home' },
+    { name: 'Home', href: '/' },
     { name: 'Why Taaj', href: '#why-us' },
     { name: 'How It Works', href: '#how-it-works' },
     { name: 'Reviews', href: '#reviews' },
@@ -29,7 +30,7 @@ export default function Navbar({ onOpenAuth }: NavbarProps) {
       <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-4 sm:px-6 lg:px-8">
         
         {/* Brand Logo & Name */}
-        <a href="#home" className="flex items-center space-x-2 focus:outline-none">
+        < a href="/" className="flex items-center space-x-2 focus:outline-none">
           {/* <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-gradient-to-tr from-brand-cyan to-brand-green p-0.5 shadow-lg shadow-brand-cyan/20">
             <div className="flex h-full w-full items-center justify-center rounded-[10px] bg-brand-purple">
               <span className="font-sans text-xl font-extrabold tracking-wider text-white">T</span>
