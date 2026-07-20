@@ -55,11 +55,11 @@ export default function Footer() {
             <div className="space-y-1.5 border-t border-white/5 pt-4">
               <span className="text-[10px] font-bold text-slate-400 uppercase tracking-widest block">Support & Inquiries</span>
               <a 
-                href="mailto:info.taajnigeria@gmail.com" 
+                href="mailto:info@taajnigeria.com" 
                 className="text-sm font-semibold text-brand-cyan hover:text-white transition-colors flex items-center gap-2"
               >
                 <Mail className="h-4 w-4 text-brand-cyan" />
-                info.taajnigeria@gmail.com
+                info@taajnigeria.com
               </a>
             </div>
 

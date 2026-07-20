@@ -64,12 +64,12 @@ export default function Navbar({ onOpenAuth }: NavbarProps) {
         {/* Desktop CTAs */}
         <div className="hidden md:flex items-center space-x-4">
           <a
-            href="mailto:info.taajnigeria@gmail.com"
+            href="mailto:info@taajnigeria.com"
             className="flex items-center gap-1.5 px-3 py-2 text-sm font-semibold text-slate-300 hover:text-brand-cyan transition-colors duration-200"
-            title="Email: info.taajnigeria@gmail.com"
+            title="Email: info@taajnigeria.com"
           >
             <Mail className="h-4 w-4 text-brand-cyan" />
-            <span className="hidden lg:inline text-xs">info.taajnigeria@gmail.com</span>
+            <span className="hidden lg:inline text-xs">info@taajnigeria.com</span>
           </a>
 
           <a
@@ -122,12 +122,12 @@ export default function Navbar({ onOpenAuth }: NavbarProps) {
             </a>
             
             <a
-              href="mailto:info.taajnigeria@gmail.com"
+              href="mailto:info@taajnigeria.com"
               onClick={() => setIsOpen(false)}
               className="flex w-full items-center justify-center gap-2 rounded-xl border border-white/10 px-4 py-3 text-base font-bold text-white hover:bg-white/5 transition-all"
             >
               <Mail className="h-5 w-5 text-brand-cyan" />
-              info.taajnigeria@gmail.com
+              info@taajnigeria.com
             </a>
           </div>
         </div>
