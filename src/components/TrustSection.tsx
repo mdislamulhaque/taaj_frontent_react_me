@@ -72,7 +72,7 @@ export default function TrustSection() {
           {CUSTOMER_REVIEWS.map((review) => (
             <div 
               key={review.id}
-              className="glass-card p-6 rounded-3xl border border-white/5 bg-brand-navy/20 relative flex flex-col justify-between"
+              className="glass-card p-6 rounded-3xl border border-white/5 bg-brand-navy/20 relative flex flex-col justify-between cursor-pointer hover:border-white/10 transition-all duration-300"
             >
               
               {/* Star Rating & Flag */}

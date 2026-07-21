@@ -66,12 +66,12 @@ export default function HowItWorks() {
             return (
               <div 
                 key={item.step}
-                className="group relative rounded-2xl glass-card p-8 border border-white/5 bg-brand-purple/20 hover:border-white/10 transition-all duration-300 flex flex-col justify-between"
+                className="group relative rounded-2xl glass-card p-8 border border-white/5 bg-brand-purple/20 hover:border-white/10 transition-all duration-300 flex flex-col justify-between cursor-pointer"
               >
                 <div>
                   {/* Step counter badge */}
                   <div className="flex items-center justify-between mb-6">
-                    <span className="text-3xl font-black tracking-tighter text-white/15 group-hover:text-white/20 transition-colors leading-none">
+                    <span className="text-3xl font-black tracking-tighter text-white/30 group-hover:text-white/50 transition-colors leading-none">
                       {item.step}
                     </span>
                     <div className={`flex h-12 w-12 items-center justify-center rounded-2xl border ${item.color}`}>

@@ -80,7 +80,7 @@ export default function WhyUs() {
             return (
               <div 
                 key={pillar.id}
-                className={`glass-card p-6 rounded-2xl flex flex-col justify-between border ${pillar.accent}`}
+                className={`glass-card p-6 rounded-2xl flex flex-col justify-between border cursor-pointer ${pillar.accent}`}
               >
                 <div>
                   <div className="flex items-center justify-between mb-6">
