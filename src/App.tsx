@@ -72,7 +72,7 @@ export default function App() {
   };
 
   return (
-    <div className="relative min-h-screen text-white antialiased selection:bg-brand-cyan/30 selection:text-white">
+    <div className="relative min-h-screen text-white antialiased selection:bg-brand-cyan/30 selection:text-white overflow-x-hidden">
       
       {/* =========================================================================
          NAVBAR MODULE: STICKY HEADER NAVIGATION
