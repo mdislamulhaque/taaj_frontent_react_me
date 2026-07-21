@@ -73,7 +73,7 @@ export default function Navbar({ onOpenAuth }: NavbarProps) {
           </a>
 
           <a
-            href="https://taajnigeria.com/admin/login"
+            href="https://admin.taajnigeria.com"
             className="flex items-center justify-center gap-1.5 rounded-xl bg-gradient-to-r from-brand-cyan to-brand-green px-5 py-2.5 text-sm font-bold text-brand-navy shadow-lg shadow-brand-cyan/20 transition-all duration-300 hover:scale-[1.03] hover:shadow-brand-cyan/40 active:scale-[0.98]"
           >
             <Lock className="h-4 w-4" />
@@ -113,7 +113,7 @@ export default function Navbar({ onOpenAuth }: NavbarProps) {
           
           <div className="border-t border-white/10 pt-4 flex flex-col space-y-3">
             <a
-              href="https://taajnigeria.com/admin/login"
+              href="https://admin.taajnigeria.com"
               onClick={() => setIsOpen(false)}
               className="flex w-full items-center justify-center gap-2 rounded-xl bg-gradient-to-r from-brand-cyan to-brand-green px-4 py-3 text-base font-bold text-brand-navy shadow-lg shadow-brand-cyan/25"
             >
