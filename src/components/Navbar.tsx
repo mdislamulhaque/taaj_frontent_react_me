@@ -118,7 +118,7 @@ export default function Navbar({ onOpenAuth }: NavbarProps) {
               className="flex w-full items-center justify-center gap-2 rounded-xl bg-gradient-to-r from-brand-cyan to-brand-green px-4 py-3 text-base font-bold text-brand-navy shadow-lg shadow-brand-cyan/25"
             >
               <Lock className="h-5 w-5" />
-              Login to Account
+              Login 
             </a>
             
             <a

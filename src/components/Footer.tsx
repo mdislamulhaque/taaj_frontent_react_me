@@ -21,8 +21,9 @@ export default function Footer() {
   return (
     /* ==========================================
        FOOTER MODULE
+       bg-brand-navy 
        ========================================== */
-    <footer className="relative bg-brand-navy border-t border-white/10 pt-16 pb-8 text-slate-300">
+    <footer className="relative  border-t border-white/10 pt-16 pb-8 text-slate-300 backdrop-blur-md bg-[#133173]">
       
       {/* Footer Top Links & Widgets */}
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
