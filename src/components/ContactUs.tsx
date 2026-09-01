@@ -95,10 +95,10 @@ export default function ContactUs() {
                   <div>
                     <h4 className="text-xs font-bold text-slate-400 uppercase tracking-wider mb-1">Email support</h4>
                     <a 
-                      href="mailto:info.taajnigeria@gmail.com"
+                      href="mailto:info@taajnigeria.com"
                       className="text-sm font-semibold text-brand-cyan hover:text-white transition-colors"
                     >
-                      info.taajnigeria@gmail.com
+                      info@taajnigeria.com
                     </a>
                   </div>
                 </div>
